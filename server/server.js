@@ -5,7 +5,7 @@ var app = express()
 app.use(express.static('../client/build'))
 
 // sends some data..
-app.get('/api/data', function (req, res) {
+app.get('/api/subs', function (req, res) {
   res.json({ some: 'data' })
 })
 
